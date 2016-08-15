@@ -46,7 +46,7 @@ This is useful for setting up "heartbeat" monitoring, where a service has to rai
 
 To play with this, let's set up a new collectd plugin.
 
-Add a new file in collectd/root/etc/collectd.d called ping.conf and add the following:
+Add a new file in collectd/root/etc/collectd called ping.conf and add the following:
 
 ```
 LoadPlugin Ping
